@@ -16,6 +16,12 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
+    
+    # Filesystem
+PRODUCT_PACKAGES += \
+    e2fsck \
+    make_ext4fs \
+    setup_fs
 
 PRODUCTY_COPY_FILES += \
     device/samsung/a7lte/twrp.fstab:recovery/root/etc/twrp.fstab
