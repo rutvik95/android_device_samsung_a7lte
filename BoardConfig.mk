@@ -33,7 +33,7 @@ TARGET_PREBUILT_KERNEL := device/samsung/a7lte/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
-
+#TARGET_RECOVERY_FSTAB := device/samsung/a7lte/recovery.fstab
 #TWRP
 DEVICE_RESOLUTION := 1080x1920
 TW_NEW_ION_HEAP := true
